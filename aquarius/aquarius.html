@@ -1,0 +1,957 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>*|MC:SUBJECT|*</title>
+        <style type="text/css">
+			/* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+			.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+			.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+			body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+			table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+			img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+			/* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+			body{margin:0; padding:0;}
+			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+			table{border-collapse:collapse !important;}
+			body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+			/* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+
+			/* ========== Page Styles ========== */
+
+			#bodyCell{padding:20px;}
+			#templateContainer{width:600px;}
+
+			/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+			body, #bodyTable{
+				/*@editable*/ background-color:#E9E9E9;
+			}
+
+			/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+			#bodyCell{
+				/*@editable*/ 
+			}
+
+			/**
+			* @tab Page
+			* @section email border
+			* @tip Set the border for your email.
+			*/
+			#templateContainer{
+				/*@editable*/ 
+			}
+
+			/**
+			* @tab Page
+			* @section heading 1
+			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+			* @style heading 1
+			*/
+			h1{
+				/*@editable*/ color:#A1A1A1 !important;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:26px;
+				/*@editable*/ font-style:italic;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 2
+			* @tip Set the styling for all second-level headings in your emails.
+			* @style heading 2
+			*/
+			h2{
+				/*@editable*/ color:#fff !important;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:20px;
+				/*@editable*/ font-style:italic;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 3
+			* @tip Set the styling for all third-level headings in your emails.
+			* @style heading 3
+			*/
+			h3{
+				/*@editable*/ color:#606060 !important;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:16px;
+				/*@editable*/ font-style:italic;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 4
+			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+			* @style heading 4
+			*/
+			h4{
+				/*@editable*/ color:#808080 !important;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ font-style:italic;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/* ========== Header Styles ========== */
+
+			/**
+			* @tab Header
+			* @section preheader style
+			* @tip Set the background color and bottom border for your email's preheader area.
+			* @theme header
+			*/
+			#templatePreheader{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ 
+			}
+
+			/**
+			* @tab Header
+			* @section preheader text
+			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+			*/
+			.preheaderContent{
+				/*@editable*/ color:#808080;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:125%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader link
+			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+			*/
+			.preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#606060;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/**
+			* @tab Header
+			* @section header style
+			* @tip Set the background color and borders for your email's header area.
+			* @theme header
+			*/
+			#templateHeader{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ 
+				/*@editable*/ 
+			}
+
+			/**
+			* @tab Header
+			* @section header text
+			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+			*/
+			.headerContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:20px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ padding-top:0;
+				/*@editable*/ padding-right:0;
+				/*@editable*/ padding-bottom:0;
+				/*@editable*/ padding-left:0;
+				/*@editable*/ text-align:left;
+				/*@editable*/ vertical-align:middle;
+			}
+
+			/**
+			* @tab Header
+			* @section header link
+			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+			*/
+			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			#headerImage{
+				height:auto;
+				max-width:600px;
+			}
+
+			/* ========== Body Styles ========== */
+
+			/**
+			* @tab Body
+			* @section body style
+			* @tip Set the background color and borders for your email's body area.
+			*/
+			#templateBody{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ 
+				/*@editable*/ 
+			}
+
+			/**
+			* @tab Body
+			* @section body text
+			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+			.bodyContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:16px;
+				/*@editable*/ line-height:150%;
+				padding-top:20px;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Body
+			* @section body link
+			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+			*/
+			.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.bodyContent img{
+				display:inline;
+				height:auto;
+				max-width:560px;
+			}
+
+			/* ========== Column Styles ========== */
+
+			.templateColumnContainer{width:260px;}
+
+			/**
+			* @tab Columns
+			* @section column style
+			* @tip Set the background color and borders for your email's column area.
+			*/
+			#templateColumns{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ 
+				/*@editable*/ 
+			}
+
+			/**
+			* @tab Columns
+			* @section left column text
+			* @tip Set the styling for your email's left column content text. Choose a size and color that is easy to read.
+			*/
+			.leftColumnContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				padding-top:0;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Columns
+			* @section left column link
+			* @tip Set the styling for your email's left column content links. Choose a color that helps them stand out from your text.
+			*/
+			.leftColumnContent a:link, .leftColumnContent a:visited, /* Yahoo! Mail Override */ .leftColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+            /**
+			* @tab Columns
+			* @section center column text
+			* @tip Set the styling for your email's center column content text. Choose a size and color that is easy to read.
+			*/
+			.centerColumnContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				padding-top:0;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Columns
+			* @section center column link
+			* @tip Set the styling for your email's center column content links. Choose a color that helps them stand out from your text.
+			*/
+			.centerColumnContent a:link, .centerColumnContent a:visited, /* Yahoo! Mail Override */ .centerColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/**
+			/**
+			* @tab Columns
+			* @section right column text
+			* @tip Set the styling for your email's right column content text. Choose a size and color that is easy to read.
+			*/
+			.rightColumnContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				padding-top:0;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Columns
+			* @section right column link
+			* @tip Set the styling for your email's right column content links. Choose a color that helps them stand out from your text.
+			*/
+			.rightColumnContent a:link, .rightColumnContent a:visited, /* Yahoo! Mail Override */ .rightColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.leftColumnContent img, .rightColumnContent img{
+				display:inline;
+				height:auto;
+				max-width:260px;
+			}
+
+			/* ========== Footer Styles ========== */
+
+			/**
+			* @tab Footer
+			* @section footer style
+			* @tip Set the background color and borders for your email's footer area.
+			* @theme footer
+			*/
+			#templateFooter{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ 
+			}
+
+			/**
+			* @tab Footer
+			* @section footer text
+			* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+			* @theme footer
+			*/
+			.footerContent{
+				/*@editable*/ color:#808080;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:150%;
+				padding-top:20px;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer link
+			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+			*/
+			.footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{
+				/*@editable*/ color:#606060;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
+
+            @media only screen and (max-width: 480px){
+				/* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
+				body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+                body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+
+				/* /\/\/\/\/\/\/ MOBILE RESET STYLES /\/\/\/\/\/\/ */
+				#bodyCell{padding:10px !important;}
+
+				/* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
+
+				/* ======== Page Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section template width
+				* @tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.
+				*/
+				#templateContainer{
+					max-width:600px !important;
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 1
+				* @tip Make the first-level headings larger in size for better readability on small screens.
+				*/
+				h1{
+					/*@editable*/ font-size:24px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 2
+				* @tip Make the second-level headings larger in size for better readability on small screens.
+				*/
+				h2{
+					/*@editable*/ font-size:20px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 3
+				* @tip Make the third-level headings larger in size for better readability on small screens.
+				*/
+				h3{
+					/*@editable*/ font-size:18px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 4
+				* @tip Make the fourth-level headings larger in size for better readability on small screens.
+				*/
+				h4{
+					/*@editable*/ font-size:16px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/* ======== Header Styles ======== */
+
+				#templatePreheader{display:none !important;} /* Hide the template preheader to save space */
+
+				/**
+				* @tab Mobile Styles
+				* @section header image
+				* @tip Make the main header image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+				*/
+				#headerImage{
+					height:auto !important;
+					/*@editable*/ max-width:600px !important;
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section header text
+				* @tip Make the header content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.headerContent{
+					/*@editable*/ font-size:20px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Body Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section body text
+				* @tip Make the body content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.bodyContent{
+					/*@editable*/ font-size:18px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Column Styles ======== */
+
+				.templateColumnContainer{display:block !important; width:100% !important;}
+
+				/**
+				* @tab Mobile Styles
+				* @section column image
+				* @tip Make the column image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+				*/
+				.columnImage{
+					height:auto !important;
+					/*@editable*/ max-width:480px !important;
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section left column text
+				* @tip Make the left column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.leftColumnContent{
+					/*@editable*/ font-size:16px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section right column text
+				* @tip Make the right column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.rightColumnContent{
+					/*@editable*/ font-size:16px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Footer Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section footer text
+				* @tip Make the body content text larger in size for better readability on small screens.
+				*/
+				.footerContent{
+					/*@editable*/ font-size:14px !important;
+					/*@editable*/ line-height:115% !important;
+				}
+
+				.footerContent a{display:block !important;} /* Place footer social and utility links on their own lines, for easier access */
+			}
+		</style>
+    </head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    	<center>
+        	<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" >
+            	<tr>
+                	<td align="center" valign="top" id="bodyCell" >
+                    	<!-- BEGIN TEMPLATE // -->
+                    	<table border="0" cellpadding="0" cellspacing="0" id="templateContainer" >
+                        <!--header start-->
+                            <tr>
+                                <td align="center" valign="top" style="padding-left: 5px;background: #F0F0F0;padding-right: 5px;">
+                                	<!-- BEGIN COLUMNS // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateColumns" style="background: #EF2B73;">
+                                    	<tr mc:repeatable>
+                                        	<td align="center" valign="top" class="templateColumnContainer" style="padding-top:0px;">
+                                            	<table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                	<tr>
+                                                    	<td class="leftColumnContent">
+                                                        	<img src="img/logo.png" style="max-width:260px;" class="columnImage" mc:label="left_column_image" mc:edit="left_column_image" />
+                                                        </td>
+                                                    </tr>
+                                                   
+                                                </table>
+                                            </td>
+                                        	<td align="center" valign="top" class="templateColumnContainer" style="padding-top:20px;">
+                                            	<table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                	<tr>
+                                                    	<td class="rightColumnContent" style="text-align: right;padding-bottom: 0px">
+                                                        	<img src="img/fb.png" style="padding-right: 2px;" class="" mc:label="right_column_image" mc:edit="right_column_image" />
+                                                        	<img src="img/tw.png" style="padding-right: 2px;" class="" mc:label="right_column_image" mc:edit="right_column_image" />
+                                                        	<img src="img/gm.png" style="padding-right: 2px;" class="" mc:label="right_column_image" mc:edit="right_column_image" />
+                                                        	<img src="img/pi.png" style="padding-right: 2px;" class="" mc:label="right_column_image" mc:edit="right_column_image" />
+                                                        	<img src="img/su.png" style="padding-right: 2px;" class="" mc:label="right_column_image" mc:edit="right_column_image" />
+                                                        	<h1 style="margin-bottom: 0"></h1>
+                                                        	<a href="#" style="color: #fff;text-decoration: none;font-size: 12px;">If you can't see this email? View it online</a>
+                                                        	
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                </table>
+                                            </td>
+                                        </tr>
+                                      
+                                        
+                                    </table>
+                                    <!-- // END COLUMNS -->
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td align="center" valign="top" style="padding-left: 4px;padding-right: 4px;background: #F0F0F0;">
+                                	<!-- BEGIN HEADER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
+                                        <tr>
+                                            <td valign="top" class="headerContent">
+                                            	<img src="img/header-bar.png" style="max-width:604px;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END HEADER -->
+                                </td>
+                            </tr>
+                        <!--header End-->
+                            
+                        <!--banner start-->
+                            <tr>
+                                <td align="center" valign="top" style="padding-left: 5px;background: #F0F0F0;padding-right: 5px;">
+                                	<!-- BEGIN COLUMNS // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateColumns" style="background: #fff">
+                                    	<tr mc:repeatable>
+                                        	<td align="center" valign="top" class="templateColumnContainer" style="padding-top:20px;">
+                                            	<table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                	<tr>
+                                                    	<td class="leftColumnContent" style="padding-right: 0px;">
+                                                        	<img src="img/banner.png" style="max-width:260px;" class="columnImage" mc:label="left_column_image" mc:edit="left_column_image" />
+                                                        </td>
+                                                    </tr>
+                                                   
+                                                </table>
+                                            </td>
+                                        	<td align="center" valign="top" class="templateColumnContainer" style="padding-top:20px;">
+                                            	<table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                	<tr>
+                                                    	<td class="rightColumnContent" style="padding-left: 0px;text-align: center">
+                                                        	<h1 style="text-align: center;">Valentine Heading</h1>
+                                                        	<img src="img/heading-btm-img.png" style="padding-right: 5px;" class="" mc:label="right_column_image" mc:edit="right_column_image" />
+                                                        	
+                                                        	
+                                                        </td>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                    	<td valign="top" class="rightColumnContent" mc:edit="right_column_content" style="color: #AFAFAF;font-size: 12px;text-align: left">
+                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor voluptate ex vel tempore, earum nostrum necessitatibus molestias ipsum iure alias atque in sint eius aspernatur cumque at reiciendis inventore pariatur recusandae, omnis cum, eos reprehenderit!
+                                                            
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td valign="top" class="rightColumnContent" mc:edit="right_column_content" style="padding-left: 0px;color: #AFAFAF;font-size: 12px;text-align: center">
+                                                           
+                                                            <img  src="img/more.png" alt="">
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                    
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END COLUMNS -->
+                                </td>
+                            </tr>
+                        <!--banner End-->
+                        <!--item 1 start-->
+                        <tr>
+                            	<td align="center" valign="top" style="padding-left: 5px;background: #F0F0F0;padding-right: 3px;padding-top: 5px">
+                                	<!-- BEGIN COLUMNS // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateColumns">
+                                    	<tr mc:repeatable>
+                                        	<td align="center" valign="top" class="templateColumnContainer" style="padding-top:10px;width: 300px;background: #EC6792;padding-bottom: 5px;">
+                                            	<table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                	
+                                                    <tr>
+                                                    	<td valign="top" class="leftColumnContent" mc:edit="right_column_content" style="color: #fff;padding-bottom: 0px">
+                                                           <h2>New Product or Service</h2>
+                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sapiente dolore placeat assumenda nesciunt impedit rerum dignissimos facere commodi. 
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        	<td align="center" valign="top" class="templateColumnContainer" style="padding-top:0px; width: 220px">
+                                            	<table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                	<tr>
+                                                    	<td class="rightColumnContent" style="padding-right: 0;padding-bottom: 0;padding-left: 5px;" >
+                                                        	<img src="img/item1.png" style="width: 100%;" class="columnImage" mc:label="left_column_image" mc:edit="left_column_image" />
+                                                        </td>
+                                                    </tr>
+                                                  
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END COLUMNS -->
+                                </td>
+                            </tr>
+                        <!--item 1 start-->
+                         <!--item 2 start-->
+                         <tr>
+                            	<td align="center" valign="top" style="padding-left: 5px;background: #F0F0F0;padding-right: 5px;padding-top: 5px;padding-bottom: 5px">
+                                	<!-- BEGIN COLUMNS // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateColumns">
+                                    	<tr mc:repeatable>
+                                        	<td align="center" valign="top" class="templateColumnContainer" style="padding-top:0px;width: 220px">
+                                            	<table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                	
+                                                    <tr>
+                                                    	<td valign="top" class="leftColumnContent" mc:edit="right_column_content" style="padding-right: 5px;padding-bottom: 0;padding-left: 0px;">
+                                                          <img src="img/item2.png" style="width: 100%;" class="columnImage" mc:label="left_column_image" mc:edit="left_column_image" />
+                                                           
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        	<td align="center" valign="top" class="templateColumnContainer" style="padding-top:10px;width: 300px;background: #F7C973;">
+                                            	<table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                	<tr>
+                                                    	<td class="rightColumnContent" style="color: #fff;padding-bottom: 0px" >
+                                                        	<h2>New Product or Service</h2>
+                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sapiente dolore placeat assumenda nesciunt impedit rerum dignissimos facere commodi. 
+                                                        </td>
+                                                    </tr>
+                                                  
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END COLUMNS -->
+                                </td>
+                            </tr>
+                        <!--item 2 start-->
+                         <!--item 3 start-->
+                        <tr>
+                            	<td align="center" valign="top" style="padding-left: 5px;background: #F0F0F0;padding-right: 4px;">
+                                	<!-- BEGIN COLUMNS // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateColumns">
+                                    	<tr mc:repeatable>
+                                        	<td align="center" valign="top" class="templateColumnContainer" style="padding-top:10px;width: 300px;background: #ADDADD;">
+                                            	<table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                	
+                                                    <tr>
+                                                    	<td valign="top" class="leftColumnContent" mc:edit="right_column_content" style="color: #fff;padding-bottom: 0px">
+                                                           <h2>New Product or Service</h2>
+                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sapiente dolore placeat assumenda nesciunt impedit rerum dignissimos facere commodi. 
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        	<td align="center" valign="top" class="templateColumnContainer" style="padding-top:0px;width: 220px">
+                                            	<table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                	<tr>
+                                                    	<td class="rightColumnContent" style="padding-right: 0;padding-bottom: 0;padding-left: 5px;" >
+                                                        	<img src="img/item3.png" style="width: 100%;" class="columnImage" mc:label="left_column_image" mc:edit="left_column_image" />
+                                                        </td>
+                                                    </tr>
+                                                  
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END COLUMNS -->
+                                </td>
+                            </tr>
+                        <!--item 3 start-->
+                         <!--item 4 start-->
+                         <tr>
+                            	<td align="center" valign="top" style="padding-left: 5px;background: #F0F0F0;padding-right: 5px;padding-top: 5px">
+                                	<!-- BEGIN COLUMNS // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateColumns">
+                                    	<tr mc:repeatable>
+                                        	<td align="center" valign="top" class="templateColumnContainer" style="padding-top:0px;width: 220px">
+                                            	<table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                	
+                                                    <tr>
+                                                    	<td valign="top" class="leftColumnContent" mc:edit="right_column_content" style="padding-right: 5px;padding-bottom: 0px;padding-left: 0px;">
+                                                          <img src="img/item4.png" style="width: 100%;" class="columnImage" mc:label="left_column_image" mc:edit="left_column_image" />
+                                                           
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        	<td align="center" valign="top" class="templateColumnContainer" style="padding-top:10px;width: 300px;background: #F7B4C5;">
+                                            	<table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                	<tr>
+                                                    	<td class="rightColumnContent" style="color: #fff;padding-bottom: 0px;padding-top: " >
+                                                        	<h2>New Product or Service</h2>
+                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sapiente dolore placeat assumenda nesciunt impedit rerum dignissimos facere commodi. 
+                                                        </td>
+                                                    </tr>
+                                                  
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END COLUMNS -->
+                                </td>
+                            </tr>
+                        <!--item 4 end-->
+                                       
+                        <!--brand start-->
+                        	<tr>
+                            	<td align="center" valign="top" style="padding-left: 5px;background: #F0F0F0;padding-right: 3px;">
+                                	<!-- BEGIN HEADER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
+                                        <tr>
+                                            <td valign="top" class="headerContent">
+                                            	<img src="img/brand.png" style="max-width:604px;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END HEADER -->
+                                </td>
+                            </tr>
+                        <!--brand end-->
+                        <!--social area star-->
+                        <tr>
+                            	<td align="center" valign="top" style="padding-left: 5px;background: #F0F0F0;padding-right: 5px;">
+                                	<!-- BEGIN HEADER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
+                                        <tr>
+                                            <td valign="top" class="headerContent">
+                                            	<img src="img/social-top-bar.png" style="max-width:602px;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END HEADER -->
+                                </td>
+                        </tr>
+                        
+                            <tr>
+                            	<td align="center" valign="top" style="padding-left: 6px;background: #F0F0F0;padding-right: 6px;">
+                                	<!-- BEGIN COLUMNS // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateColumns" style="background: #A9A9A9;">
+                                    	<tr mc:repeatable>
+                                        	<td align="center" valign="top" class="templateColumnContainer" style="padding-top:20px;width: 260px;">
+                                            	<table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                	<tr>
+                                                    	<td class="leftColumnContent">
+                                                        	<img src="img/fb.png" style="padding-right: 2px;" class="" mc:label="right_column_image" mc:edit="right_column_image" />
+                                                        	<img src="img/tw.png" style="padding-right: 2px;" class="" mc:label="right_column_image" mc:edit="right_column_image" />
+                                                        	<img src="img/gm.png" style="padding-right: 2px;" class="" mc:label="right_column_image" mc:edit="right_column_image" />
+                                                        	<img src="img/pi.png" style="padding-right: 2px;" class="" mc:label="right_column_image" mc:edit="right_column_image" />
+                                                        	<img src="img/su.png" style="padding-right: 2px;" class="" mc:label="right_column_image" mc:edit="right_column_image" />
+                                                        	
+                                                        	
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td valign="top" class="leftColumnContent" mc:edit="left_column_content" style="color: #fff">
+                                                        Company Name 4884 Lilac Lane
+                                                        <h4 style="margin-bottom: 0"></h4>
+                                                        Statesboro, GA 30458
+                                                         <h4 style="margin-bottom: 0"></h4>
+                                                        info@mail.com
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        	<td align="center" valign="top" class="templateColumnContainer" style="padding-top:20px;width:130px">
+                                            	<table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                	<tr>
+                                                    	<td class="centerColumnContent" style="color: #fff;font-size: 12px">
+                                                        	<h4 style="font-style: normal;color: #fff!important;font-weight: 700;font-size: 16px!important;">Recommaneded</h4>
+                                                        	New Release  <h4 style="margin-bottom: 0"></h4>
+                                                        	Best Seller  <h4 style="margin-bottom: 0"></h4>
+                                                        	Promotional  <h4 style="margin-bottom: 0"></h4>
+                                                        	Clearance Sale 
+                                                        	
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                </table>
+                                            </td>
+                                        	<td align="center" valign="top" class="templateColumnContainer" style="padding-top:20px;width: 130px">
+                                            	<table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                	<tr>
+                                                    	<td class="rightColumnContent" style="color: #fff;font-size: 12px">
+                                                        	<h4  style="font-style: normal;color: #fff!important;font-weight: 700;font-size: 16px!important;">Newsletter</h4>
+                                                        	Forward <h4 style="margin-bottom: 0"></h4>
+                                                        	Unsubscribe <h4 style="margin-bottom: 0"></h4>
+                                                        	Home 
+                                                        	
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END COLUMNS -->
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td align="center" valign="top" style="padding-left: 6px;background: #F0F0F0;padding-right: 5px;">
+                                	<!-- BEGIN HEADER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
+                                        <tr>
+                                            <td valign="top" class="headerContent">
+                                            	<img src="img/social-btm-bar.png" style="max-width:602px;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END HEADER -->
+                                </td>
+                        </tr>
+                        <!--social area end-->
+                                        
+                                 <!--<tr>Main Body</tr>-->
+                        	<tr>
+                            	<td align="center" valign="top" style="padding-left: 6px;background: #F0F0F0;padding-right: 6px;">
+                                	<!-- BEGIN FOOTER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter" style="background: #C30A4D">
+                                        
+                                        <tr>
+                                            <td valign="top" class="footerContent" style="padding-top:20px;color: #fff;text-align: center;padding-bottom: 0" mc:edit="footer_content01">
+                                                &copy; Copyright - All Rights Reserved.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" class="footerContent" style="padding-top:0;color: #fff;text-align: center" mc:edit="footer_content02">
+                                            	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ab consequatur quae quibusdam, omnis facere, ullam labore accusamus architecto officiis commodi, quisquam deserunt eaque voluptates? Voluptates fugit harum, velit necessitatibus vero, omnis ratione ut porro doloremque ipsam, delectus odio nulla?
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END FOOTER -->
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
